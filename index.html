@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking favicon -->
+    <link rel="shortcut icon" href="kural.jpg" type="image/x-icon">
+    <!-- Linking bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Linking fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>திருக்குறள்</title>
+</head>
+<body>
+    <div class="container-fluid main">
+
+        <h1 class="container text-center" id="title">திருக்குறள்</h1>
+        
+        <div class="row">
+            <div class="col col-3">
+                <img src="valluvar.jpg" class="img justify-content-center" width="500" height="500" alt="Thiruvalluvar image">
+                <button class="btn btn-success justify-content-right">வேறு குறள்--></button>
+            </div>
+            <!-- Displaying tamil details -->
+            <div class="col col-9 mt-4 tamil_detail">
+                <h4 id="no"></h4>
+                
+                <!-- Displaying chapter and chapter group in tamil  -->
+                <div class="row">
+                    <div class="col">
+                        <h5 id="sect_tam"></h5>
+                    </div>
+                    <div class="col">
+                        <h5 id="chapgrp_tam"></h5>
+                    </div>
+                    <div class="col">
+                        <h5 id="chap_tam"></h5>
+                    </div>
+                </div>
+                <br>
+                <!-- Displaying kural  -->
+                <div id="kural">
+                    <h5>குறள் :</h5>
+                    <h4 id="line1"></h4>
+                    <h4 id="line2"></h4>
+                </div>
+                <br>
+                <!-- Displaying explanation in tamil -->
+                <h5>தமிழ் விளக்கவுரை :</h5>
+                <p id="t_exp"></p>
+
+                <!-- Divider -->
+                <div id="divider">
+                    <hr>
+                    <i class="fa fa-star fa-1x" id="star"></i>
+                    <i class="fa fa-star fa-1x" id="star"></i>
+                    <i class="fa fa-star fa-1x" id="star"></i>
+                </div>
+               
+                <!-- Displayin details in english -->
+                <h5 id="n1"></h5>
+                <div class="row">
+                    <div class="col"><h5 id="sect_eng"></h5></div>
+                    <div class="col"><h5 id="chapgrp_eng"></h5></div>
+                    <div class="col"><h5 id="chap_eng"></h5></div>
+                </div>
+                <br>
+                <!-- Kural in english -->
+                <div id="kural_eng">
+                    <h5>Kural : </h5>
+                    <h5 id="eng_line"></h5>
+                </div>
+                <br>
+                <!-- English Explanation -->
+                <h5>English Explanation : </h5>
+                <p id="eng_exp"></p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Linking script file -->
+    <script src="script.js"></script>
+    <!-- Linking Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

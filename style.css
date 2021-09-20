@@ -1,0 +1,36 @@
+
+h1{
+    margin-top: 7vh;
+    color:blue;
+    font-weight: bold;
+}
+
+.tamil_detail{
+    padding-left: 30px;
+}
+
+
+#divider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fa-star{
+    padding-left: 15%;
+    padding-right:15%;
+}
+/* hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+} */
+
+.btn{
+    margin-left:45%;
+}
+
+#line1,#line2{
+    color:blue;
+    font-size:1.3rem;
+}
